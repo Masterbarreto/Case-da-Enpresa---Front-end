@@ -1,0 +1,16 @@
+.container-box {
+    background-color: white; /* Fundo branco */
+    width: 400px; /* Defina um tamanho fixo ou ajustável */
+    height: auto; /* Altura se ajusta ao conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os elementos */
+}
+
+.box-titles{
+    color: #c75b18;
+}
