@@ -1,4 +1,4 @@
-import { Container } from "../components/ui/BoxInputs";
+import { Container } from "../components/ui/BoxINputs";
 import "../styles/Pagamento.css";
 export function Pagamento() {
     return (

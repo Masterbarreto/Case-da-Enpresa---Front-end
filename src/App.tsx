@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePages } from './components/HomePages'; 
+import { HomePages } from './components/homePages'; 
 import { Pagamento } from './components/Pagamento'; 
 import './App.css';
 

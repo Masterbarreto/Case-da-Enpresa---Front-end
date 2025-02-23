@@ -1,7 +1,7 @@
 import "../styles/homePages.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Para mudar de tela
-import { Container } from "../components/ui/BoxInputs";
+import { Container } from "../components/ui/BoxINputs";
 
 export function HomePages() {
     const steps = ["Dados pessoais", "Veículo", "Documentos"];
