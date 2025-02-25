@@ -1,16 +1,91 @@
-.container-box {
-    background-color: white; /* Fundo branco */
-    width: 400px; /* Defina um tamanho fixo ou ajustável */
-    height: auto; /* Altura se ajusta ao conteúdo */
+.home-container {
+    background-color: #D9D9D9; /* Fundo branco */
+    width: 1017px; /* Defina um tamanho fixo ou ajustável */
+    height: 677px; /* Altura se ajusta ao conteúdo */
     border-radius: 10px; /* Bordas arredondadas */
     padding: 20px; /* Espaçamento interno */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+.container-produt{
+    background-color: #E2E2E2; /* Fundo branco */
+    width: 363px; /* Defina um tamanho fixo ou ajustável */
+    height: 911px; /* Altura se ajusta ao conteúdo */
+    border-radius: 34px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     gap: 15px; /* Espaçamento entre os elementos */
+}
+
+.Titulo-conteiner{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+
+.box-text{
+    color: #c75b18;
+    font-size: 1.5rem;
+}
+
+.box-valor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box-Preço {
+    display: flex;
+    flex-direction: column; /* Mantém "Valor de assinatura" acima */
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.box-Assinatura{
+    color: #c75b18;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 90;
+    line-height: normal;
+    margin-left: 0; /* Corrigido para remover erro */
+    margin-bottom: -3px; 
+}
+
+.box-valor-container {
+    display: flex;
+    align-items: center; /* Alinha os textos pela parte inferior */
+    gap: 10px; /* Espaço entre o valor e "Por Mês" */
+}
+
+.box-valor {
+    font-size: 37px;  /* Aumenta o tamanho do preço */
+    font-weight: bold;
+    color: #c75b18;
+    display: flex;
+    align-items: center;
+}
+
+.box-mes {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #c75b18;
+    text-align: left;
+    line-height: 1;
+}
+
+.por {
+    font-size: 18px; /* Deixa "Por" menor */
 }
 
 .box-titles{
     color: #c75b18;
+    font-size: 1.5rem;
 }

@@ -1,0 +1,78 @@
+/* Container geral */
+.container-principal {
+    color: #ff7f2a;
+    padding: px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* Plano */
+.plano {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens nas extremidades */
+    align-items: flex-start; /* Alinha os itens no topo */
+    margin-top: 20px;
+}
+
+.plano-esquerda {
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+}
+
+.plano-texto {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.plano-mes {
+    font-size: 14px;
+    color: #b3b3b3;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.plano-direita .plano-valor {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Linha separadora */
+.linha {
+    border: none;
+    height: 2px;
+    width: 310px;
+    background-color: #ff7f2a;
+    margin: 15px 0;
+}
+
+/* Subtotal e Taxa */
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.detalhes-esquerda p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.detalhes-direita p {
+    margin: 5px 0;
+    text-align: right;
+}
+
+/* Total a pagar */
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
