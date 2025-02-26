@@ -1,0 +1,23 @@
+.select-pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 2px solid #757575; /* Cinza */
+    border-radius: 50px;
+    color: #757575;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .select-pay:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .select-pay svg {
+    width: 24px;
+    height: 24px;
+  }
+  

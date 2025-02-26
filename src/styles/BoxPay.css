@@ -1,0 +1,87 @@
+/* Contêiner principal */
+.container-pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+  
+/* Título */
+.text-pay {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+  
+/* Contêiner dos botões */
+.pay-form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap; /* Garante que fique responsivo */
+    justify-content: center;
+}
+  
+/* Estilo dos botões */
+.select-pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: 2px solid #757575;
+    border-radius: 50px;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    min-width: 110px;
+}
+  
+/* Estilização ao passar o mouse */
+.select-pay:hover {
+    background-color: #f5f5f5;
+}
+
+/* Quando um método de pagamento está selecionado */
+.select-pay.selected {
+    border-color: #c75b18;
+    background-color: #ffe5d0;
+    color: #c75b18;
+}
+  
+/* Ícone dentro do botão */
+.select-pay .icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Ícone sem borda extra */
+.select-pay svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Se precisar de estilos específicos para boleto */
+.selec-boleto {
+    border-color: #c75b18;
+    color: #c75b18;
+}
+
+/* Botão de confirmação */
+.confirm-button {
+    margin-top: 12px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #c75b18;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.confirm-button:hover {
+    background-color: #a3470f;
+}
